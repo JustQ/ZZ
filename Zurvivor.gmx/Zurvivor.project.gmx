@@ -47,6 +47,8 @@
     <sprite>sprites\spr_switch</sprite>
     <sprite>sprites\spr_switchon</sprite>
     <sprite>sprites\spr_fireball</sprite>
+    <sprite>sprites\sprite37</sprite>
+    <sprite>sprites\spr_fog_mask</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -79,12 +81,13 @@
     <object>objects\obj_boss_door_vert</object>
     <object>objects\obj_boss_door_hor</object>
     <object>objects\obj_door_trap</object>
-    <object>objects\object26</object>
     <object>objects\obj_switch</object>
+    <object>objects\obj_fog</object>
+    <object>objects\obj_fog_mask</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
     <room>rooms\room1</room>
+    <room>rooms\room0</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

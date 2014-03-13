@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>global.hpmax -= 15;
+            <string>global.maxhp -= 15;
 //Dont waste your life
 instance_destroy();
 </string>

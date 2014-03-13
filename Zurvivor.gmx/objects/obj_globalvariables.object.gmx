@@ -117,6 +117,10 @@ global.shoeDrop = true;
 global.shoeChange = false;
 }
 
+if global.hp &gt; global.maxhp{
+global.hp = global.maxhp
+};
+
 
 </string>
           </argument>

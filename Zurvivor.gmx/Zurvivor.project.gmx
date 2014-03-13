@@ -36,6 +36,7 @@
       <sprite>sprites\spr_grenade</sprite>
       <sprite>sprites\spr_finger</sprite>
       <sprite>sprites\spr_beavteeth</sprite>
+      <sprite>sprites\spr_flappy</sprite>
     </sprites>
     <sprite>sprites\sprite27</sprite>
     <sprite>sprites\sprite28</sprite>
@@ -66,6 +67,7 @@
       <object>objects\obj_silverbullets</object>
       <object>objects\obj_frog_tongue</object>
       <object>objects\obj_beavteeth</object>
+      <object>objects\obj_flappy</object>
     </objects>
     <object>objects\obj_bullet</object>
     <object>objects\obj_wall</object>
@@ -80,8 +82,8 @@
     <object>objects\obj_switch</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1</room>
     <room>rooms\room0</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

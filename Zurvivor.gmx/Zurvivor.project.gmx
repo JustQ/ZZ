@@ -46,6 +46,7 @@
     <sprite>sprites\blank_mask</sprite>
     <sprite>sprites\spr_switch</sprite>
     <sprite>sprites\spr_switchon</sprite>
+    <sprite>sprites\spr_fireball</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

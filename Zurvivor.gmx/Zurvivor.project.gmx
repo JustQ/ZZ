@@ -71,8 +71,10 @@
       <object>objects\obj_frog_tongue</object>
       <object>objects\obj_beavteeth</object>
       <object>objects\obj_flappy</object>
+      <object>objects\obj_flower</object>
     </objects>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_fireball</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_HUD</object>
     <object>objects\obj_globalvariables</object>
@@ -86,8 +88,8 @@
     <object>objects\obj_fog_mask</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room1</room>
     <room>rooms\room0</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

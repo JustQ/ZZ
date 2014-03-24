@@ -61,12 +61,9 @@ global.noSandals = true;
 global.noFeet = true;
 global.noCleats = true;
 //right Click
-global.hasFireball
+global.hasFireball = false;
 //other crap
 global.boss_start = false;
-
-
-
 </string>
           </argument>
         </arguments>

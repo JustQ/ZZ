@@ -63,15 +63,10 @@
       <object>objects\obj_health</object>
       <object>objects\obj_goldbullets</object>
       <object>objects\obj_hpupgrade</object>
-      <object>objects\obj_boots</object>
-      <object>objects\obj_sandals</object>
-      <object>objects\obj_cleets</object>
-      <object>objects\obj_feet</object>
       <object>objects\obj_silverbullets</object>
       <object>objects\obj_frog_tongue</object>
       <object>objects\obj_beavteeth</object>
       <object>objects\obj_flappy</object>
-      <object>objects\obj_flower</object>
     </objects>
     <object>objects\obj_bullet</object>
     <object>objects\obj_fireball</object>
@@ -86,6 +81,16 @@
     <object>objects\obj_switch</object>
     <object>objects\obj_fog</object>
     <object>objects\obj_fog_mask</object>
+    <object>objects\obj_RightClicks</object>
+    <objects name="Right_Click_Items">
+      <object>objects\obj_flower</object>
+    </objects>
+    <objects name="Boots">
+      <object>objects\obj_boots</object>
+      <object>objects\obj_sandals</object>
+      <object>objects\obj_feet</object>
+      <object>objects\obj_cleets</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

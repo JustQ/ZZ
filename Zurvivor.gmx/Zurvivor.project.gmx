@@ -19,8 +19,6 @@
       <sprite>sprites\spr_dmgup</sprite>
       <sprite>sprites\spr_hand</sprite>
       <sprite>sprites\spr_key</sprite>
-      <sprite>sprites\spr_zombie</sprite>
-      <sprite>sprites\sprite12</sprite>
       <sprite>sprites\sprite13</sprite>
       <sprite>sprites\sprite15</sprite>
       <sprite>sprites\spr_shotgun</sprite>
@@ -45,10 +43,13 @@
     <sprite>sprites\blank</sprite>
     <sprite>sprites\blank_mask</sprite>
     <sprite>sprites\spr_switch</sprite>
+    <sprite>sprites\sprite12</sprite>
     <sprite>sprites\spr_switchon</sprite>
+    <sprite>sprites\spr_zombie</sprite>
     <sprite>sprites\spr_fireball</sprite>
     <sprite>sprites\sprite37</sprite>
     <sprite>sprites\spr_fog_mask</sprite>
+    <sprite>sprites\sprite39</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -86,6 +87,7 @@
     <object>objects\obj_switch</object>
     <object>objects\obj_fog</object>
     <object>objects\obj_fog_mask</object>
+    <object>objects\obj_zombie</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>

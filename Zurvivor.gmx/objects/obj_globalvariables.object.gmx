@@ -64,6 +64,12 @@ global.noCleats = true;
 global.hasFireball = false;
 //other crap
 global.boss_start = false;
+global.alarmFireball = true;
+
+//right clcick shtsuiff
+global.right = 0;
+global.right1 = 0;
+global.canRight = true;
 </string>
           </argument>
         </arguments>

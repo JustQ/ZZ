@@ -56,7 +56,7 @@ if (instance_exists(obj_player)){
     if (distance_to_point(obj_player.x,obj_player.y) &lt;= 100) &amp;&amp; !(collision_line(x,y,obj_player.x, obj_player.y, obj_wall, false, true)) {
         friction = 0;
         motion_add(point_direction(x,y,obj_player.x, obj_player.y), 1);
-        if(speed &gt;= 3) speed = 3;
+        if(speed &gt;= 4) speed = 4;
         engage = true;
     }
     else 
@@ -70,8 +70,8 @@ if engage = false{
 speed = 2;
 if !place_free(x+2,y) direction = 180;
 if !place_free(x-2,y) direction = 360;
-if !place_free(x,y+2) direction = 270;
-if !place_free(x,y-2) direction = 90;   
+if !place_free(x,y-2) direction = 270;
+if !place_free(x,y+2) direction = 90;   
 }
 }
 
@@ -92,8 +92,5 @@ if !place_free(x,y-2) direction = 90;
   <PhysicsObjectFriction>0.200000002980232</PhysicsObjectFriction>
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
-  <PhysicsShapePoints>
-    <point>12,9</point>
-    <point>12,12</point>
-  </PhysicsShapePoints>
+  <PhysicsShapePoints/>
 </object>

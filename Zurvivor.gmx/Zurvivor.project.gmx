@@ -91,6 +91,7 @@
       <object>objects\obj_feet</object>
       <object>objects\obj_cleets</object>
     </objects>
+    <object>objects\obj_zombie</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
